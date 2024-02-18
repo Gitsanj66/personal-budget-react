@@ -67,7 +67,7 @@ function HomePage() {
                       .append('g')
                       .attr('transform', `translate(${width / 2},${height / 2})`);
     
-        const customDarkColors = ['#990000', '#004d00', '#000099', '#800066', '#4d004d', '#004d4d', '#cc9900', '#990033', '#33cc33', '#333399'];
+        const customDarkColors = ['#990000', '#004d00', '#808000', '#800066', '#4d004d', '#004d4d', '#cc9900', '#990033', '#008080', '#333399'];
 
                       const color = d3.scaleOrdinal()
                                       .domain(data.map(d => d.title))
